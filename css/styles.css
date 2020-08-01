@@ -517,6 +517,12 @@ a.cart .cart-basket {
 .share-links {
   padding: 0px 10px;
 }
+.post-footer a:hover {
+  color: #aeaeae;
+}
+/* .share-links :hover {
+  color: #aeaeae;
+} */
 
 .comments-link {
   padding-top: 20px;
@@ -746,6 +752,9 @@ hr {
   font-size: 15px;
   margin-left: 10%;
 }
+/* .button:hover{
+  color: #aeaeae;
+} */
 
 .questions-list {
   padding-right: 3%;
@@ -760,6 +769,9 @@ hr {
 .footer-questions {
   color: #808081;  
   padding-bottom: 5%;
+}
+.footer-questions a:hover {
+  color: #aeaeae;
 }
 .question-reply-link {
   text-transform: uppercase;
