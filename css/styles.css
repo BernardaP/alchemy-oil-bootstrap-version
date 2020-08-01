@@ -378,6 +378,15 @@ a {
   
 }
 
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+p {
+  font-weight: 300;
+}
+
 .banner {
   background-color: #897F78;
 }
@@ -481,7 +490,10 @@ a.cart .cart-basket {
 .post-askalex {
   padding-bottom: 80px;
 }
-
+.posts-page p{
+  font-weight: 300;
+  color: #808081;
+}
 .home-ask-alex-img {
   padding: 16px 0px;
 }
@@ -496,20 +508,21 @@ a.cart .cart-basket {
   display: inline-block;
   vertical-align: middle;
   color: #808081;
+  font-weight: 300;
   width: 95%;
 }
 .post-date {
   padding-right: 40px;
 }
 .share-links {
-  padding: 0px 16px;
+  padding: 0px 10px;
 }
 
 .comments-link {
   padding-top: 20px;
 }
 .comments-icon {
-  padding-left: 40px;
+  padding-left: 55px;
 }
 
 .verticaLine {
@@ -643,6 +656,7 @@ hr {
 #footer-p {
   margin-bottom: 5px;
 }
+
 .footer-about-content {
   font-size: 0.75rem;
 }
@@ -664,7 +678,7 @@ hr {
   padding-right: 0px;
 }
 .rows-footer-icons {
-  padding-right: 100px;
+  padding-right: 30%;
 }
 
 /* ASK ALEX HOME POST PAGE  */
@@ -878,7 +892,7 @@ hr {
 
 .shop-button {
   text-align: center;
-  margin: 10% 5% 1%;
+  margin: 5% 5% -3%;
 
 }
 
@@ -924,10 +938,42 @@ hr {
   padding-top: 20px;
 }
 
-.question {
-  font-size: 15px;
+
+
+/* FAQ PAGE */
+
+.faq h1 {
+  margin-left: 4.5%;
+}
+
+#accordionExample {
+    margin: 30px;
+}
+.card-faq {
+    border: none;
+    
+}
+.card-border {
+    border:none;
+    background-color: #FFFFFF;
+    padding-bottom: 0px;
+    
+}
+.faq-question {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
   color: #949E43;
   padding: 10px 0px;
+}
+
+.faq-question:hover {
+  color: inherit;
+  text-decoration: none;
+
+} 
+
+.faq-answer {
+  padding-top: 0px;
 }
 
 /* .banner {
